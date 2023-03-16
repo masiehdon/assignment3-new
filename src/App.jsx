@@ -35,7 +35,7 @@ setImage1(diceImages[randomNumber1]);
 
   return (
     <div className="App bg-grey-800 min-h-screen flex flex-col justify-center items-center">
- <p>Some text</p>
+ 
   <div className='image-container flex'>
     <div className='mx-4'> 
       <img className='w-48 h-48' src={image1} alt="" />
