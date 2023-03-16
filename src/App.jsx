@@ -2,21 +2,21 @@ import React from 'react';
 import { useState } from 'react';
 import './styles.css';
 import './App.css';
+import  img1 from "./assets/images/dice-1.png"
+import  img2 from  "./assets/images/dice-2.png"
+import  img3 from  "./assets/images/dice-3.png"
+import  img4 from  "./assets/images/dice-4.png"
+import  img5 from  "./assets/images/dice-5.png"
+import  img6 from  "./assets/images/dice-6.png"
 
 
 
 function App() {
 
   const diceImages = [
-  "../assets/images/dice-1.png",
-  "../assets/images/dice-2.png",
-  "../assets/images/dice-3.png",
-  "../assets/images/dice-4.png",
-  "../assets/images/dice-5.png",
-  "../assets/images/dice-6.png",
+  img1, img2, img3, img4, img5, img6
 ];
 
-const ranNum = Math.floor(Math.random() * 6) + 1
   
 const [image1, setImage1] = useState(diceImages[0]);
 const [image2, setImage2] = useState(diceImages[5]);
